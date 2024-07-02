@@ -6,9 +6,27 @@
 A simple Content Management System (CMS) allowing admins to upload and read posts, and users to read posts.
 
 ```
+
+# Simple Content Management System (CMS)
+
+## 📌 System Requirements
+
+1. **Admin**:
+   - Can upload posts
+   - Can read posts
+
+2. **User**:
+   - Can only read posts
+
+## Features
+
+- **Admin Interface**: A user-friendly interface for administrators to create, edit, and delete posts.
+- **User Interface**: A simple and clean interface for users to browse and read posts.
+- **Authentication**: Secure login system to differentiate between admins and users.
+
 ## Spring-backend
 
-  > Spring Boot web java backend application that exposes a Rest API to manage the student datas.
+  > Spring Boot web java backend application that exposes a Rest API to manage the content datas.
 
   ### Tech 
 
