@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All Posts</title>
+</head>
+<body>
+    <h1>All Posts</h1>
+    <ul>
+        <th:block th:each="post : ${posts}">
+            <li>
+                <a th:href="@{/posts/{id}(id=${post.id})}" th:text="${post.title}"></a>
+                by <span th:text="${post.author}"></span>
+                <p th:text="${post.content}"></p>
+            </li>
+        </th:block>
+    </ul>
+</body>
+</html>
