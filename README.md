@@ -3,9 +3,8 @@
 ## Description
 
 ```
-This project consists of one Application: a Spring Boot RestAPI called spring-backend.
-This project is full stack project as a small content management system.
-User can perform such as adding, updating, searching and delecting for content datas in the database.
+A simple Content Management System (CMS) allowing admins to upload and read posts, and users to read posts.
+
 ```
 ## Spring-backend
 
