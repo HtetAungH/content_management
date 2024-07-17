@@ -1,0 +1,102 @@
+@charset "ISO-8859-1";
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6c757d;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav {
+    background-color: #343a40;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #495057;
+}
+
+main {
+    padding: 2em;
+}
+
+section {
+    display: none;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-width: 400px;
+    margin: auto;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 0.5em;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
+
+#housingList {
+    margin-top: 2em;
+}
+
+#housingList div {
+    background-color: #fff;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1em;
+}

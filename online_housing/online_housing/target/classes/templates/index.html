@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Housing Show</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Online Housing Show</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#" onclick="showSection('register')">Register</a></li>
+            <li><a href="#" onclick="showSection('login')">Login</a></li>
+            <li><a href="#" onclick="showSection('housing')">Housing</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="register" class="hidden">
+            <h2>Register</h2>
+            <form id="registerForm">
+                <label for="registerUsername">Username</label>
+                <input type="text" id="registerUsername" name="username" required>
+                <label for="registerName">Name</label>
+                <input type="text" id="registerName" name="name" required>
+                <label for="registerEmail">Email</label>
+                <input type="email" id="registerEmail" name="email" required>
+                <label for="registerPassword">Password</label>
+                <input type="password" id="registerPassword" name="password" required>
+                <button type="submit">Register</button>
+            </form>
+        </section>
+
+        <section id="login" class="hidden">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <label for="loginUsername">Username</label>
+                <input type="text" id="loginUsername" name="username" required>
+                <label for="loginPassword">Password</label>
+                <input type="password" id="loginPassword" name="password" required>
+                <button type="submit">Login</button>
+            </form>
+        </section>
+
+        <section id="housing" class="hidden">
+            <h2>Housing</h2>
+            <form id="housingForm" class="hidden">
+                <label for="housingName">Housing Name</label>
+                <input type="text" id="housingName" name="housingName" required>
+                <label for="address">Address</label>
+                <input type="text" id="address" name="address" required>
+                <label for="floors">Number of Floors</label>
+                <input type="number" id="floors" name="numberOfFloors" required>
+                <label for="masterRooms">Number of Master Rooms</label>
+                <input type="number" id="masterRooms" name="numberOfMasterRoom" required>
+                <label for="singleRooms">Number of Single Rooms</label>
+                <input type="number" id="singleRooms" name="numberOfSingleRoom" required>
+                <label for="amount">Amount</label>
+                <input type="number" id="amount" name="amount" required>
+                <button type="submit">Submit</button>
+            </form>
+            <div id="housingList"></div>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
